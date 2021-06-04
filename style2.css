@@ -1,0 +1,173 @@
+.pikachu-container{
+    margin: auto;
+    max-width: 500px;
+}
+
+.tete{
+    width: 250px;
+    height: 205px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.oreille-gauche{
+    width: 250px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: yellow;
+    transform: rotateZ(45deg) translate(0px, 120px);
+}
+
+.oreille-droite{
+    width: 250px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: yellow;
+    transform: rotateZ(-45deg) translate(40px, 90px);
+}
+
+
+
+/* */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1{
+    margin: 10px 0 1rem 0;
+    font-weight: 400;
+    font-size: 50px;
+/*     background-color: darkorange; */
+}
+
+h2{
+    font-weight: 400;
+    color: darkgray;
+    font-style: italic;
+    font-size: 30px;
+/*     background-color: deeppink; */
+}
+
+h3{
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+a{
+    color: rgb(15, 15, 15);
+}
+
+
+p{
+    margin: 10px;
+/*     background-color: forestgreen; */
+}
+
+.page-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+/*     background-color: crimson; */
+    font-size: 0;
+}
+
+header .infos{
+/*     background-color: cyan; */
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+    width: 50%;
+}
+
+header #premier{
+/*     background-color: gold; */
+}
+
+header #segond{
+    text-align: right;
+    font-style: italic;
+}
+
+article .section-globale{
+    margin-top: 50px;
+}
+
+article .ligne{
+    font-size: 0;
+    margin-top: 25px;
+}
+
+article .sous-division{
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+article .sous-division:first-of-type{
+    width: 30%;
+    text-align: right;
+/*     background-color: darkgreen; */
+}
+
+article .sous-division:first-of-type p{
+    margin: 0;
+    padding-right: 75px;
+/*     background-color: darkred; */
+}
+
+article .sous-division:nth-of-type(2){
+    width: 70%;
+/*     background-color: darkorchid; */
+}
+
+article .sous-division ul li{
+    color:rgb(5, 5, 5);
+    list-style: square;
+}
+
+article .sous-section {
+    font-size: 0;
+}
+
+article .sous-section .trait-et-titre{
+    display: inline-block;
+    font-size: 20px;
+}
+
+article .sous-section .trait-et-titre:first-of-type{
+    width: 24%;
+    height: 5px;
+    background-color: rgb(0, 144, 211);
+}
+
+article .sous-section .trait-et-titre:nth-of-type(2){
+    width: 76%;
+    color: rgb(0, 144, 211);
+    text-transform: uppercase;
+}
+
+article .bold{
+    font-weight:500;
+}
+
+article .couleur{
+    color: blue;
+}
+
+
+
+
+
+
+
